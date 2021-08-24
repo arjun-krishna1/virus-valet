@@ -1,7 +1,7 @@
 <div align="center">
   <h1>VirusValet</h1>
   <h2>Automating Covid-19 Patient Check-ins and Analysis using Deep Learning</h2>
-  <h4>Hackathon Winner <a href="https://devpost.com/software/virusvalet-192crh">Link</a></h4>
+  <h2>👑 Hackathon Winner <a href="https://devpost.com/software/virusvalet-192crh">Link</a></h2>
   </br>
   <img width="200" src="logo.png">
 </div>
