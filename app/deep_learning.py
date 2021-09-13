@@ -41,6 +41,10 @@ def predict_severity(inp):
 
 
 def predict(data):
+    """
+    Given a patient's surve responses,
+    process the data and get a prediction from the ml model
+    """
     scaled_data = min_max_scaling(age_min, age_max, data, age_idx)
     reshaped_data = tf.reshape(scaled_data, (1, 17))
     pred = predict_severity(reshaped_data)
